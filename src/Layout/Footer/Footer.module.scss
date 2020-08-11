@@ -1,0 +1,84 @@
+.App_footer {
+    background-color: #f7f7f7;
+    width: 100%;
+    .App_footer_content {
+        width: 90%;
+        margin: auto;
+        margin-top: 10%;
+        padding-left: 5%;
+        .Footer_adress {}
+        ul {
+            list-style: none;
+        }
+        .Footer_icon {
+            font-size: 30px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            .Footer_icon_item {
+                background-color: dodgerblue;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                text-align: center;
+                transition: all 1s;
+                a {
+                    color: white;
+                }
+                &:hover {
+                    transform: translateY(40px);
+                }
+            }
+            .Footer_icon_item2 {
+                background-color: #55ACEE;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                text-align: center;
+                transition: all 1s;
+                margin: 0 5px;
+                a {
+                    color: white;
+                }
+                &:hover {
+                    transform: translateY(40px);
+                }
+            }
+            .Footer_icon_item3 {
+                background-color: #bb0000;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                text-align: center;
+                transition: all 1s;
+                a {
+                    color: white;
+                }
+                &:hover {
+                    transform: translateY(40px);
+                }
+            }
+            .Footer_icon_item4 {
+                background-color: #dd4b39;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                text-align: center;
+                transition: all 1s;
+                margin-left: 5px;
+                a {
+                    color: white;
+                }
+                &:hover {
+                    transform: translateY(40px);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:762px) {
+    .Footer_adress {
+        margin-top: 20px;
+    }
+}

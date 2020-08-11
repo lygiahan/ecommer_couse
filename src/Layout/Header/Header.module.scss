@@ -1,0 +1,80 @@
+.app_header {
+    background-color: #fff;
+    padding: 0;
+    height: 75px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+    .app_header_row {
+        text-align: center;
+        color: #3c3b37;
+        align-items: center;
+        .app_header_row_search {
+            outline: none;
+            justify-content: space-around;
+        }
+        .app_header_row_btnlogin {
+            font-size: 16px;
+            width: 112px;
+            color: #1DA57A;
+            font-weight: bold;
+            border: 1px solid #1DA57A;
+            transition: all 1s;
+            &:hover {
+                background-color: #1DA57A;
+                color: white;
+            }
+        }
+        .app_header_row_btnregister {
+            background-color: #1DA57A;
+            color: white;
+            font-weight: bold;
+            font-size: 16px;
+            width: auto;
+            transition: all 1s;
+            &:hover {
+                background-color: white;
+                color: #1DA57A;
+            }
+        }
+    }
+    .app_header_repon {
+        text-align: right;
+        font-size: 30px;
+        padding-right: 30px;
+        display: none;
+    }
+}
+
+.theloai_item {
+    margin: 10px 0px;
+    font-size: 15px;
+    padding: 5px 0;
+    width: 150px;
+    cursor: pointer;
+    .theloai_item_link {
+        color: black;
+    }
+    &:hover {
+        background-color: darkgrey;
+        color: white !important;
+        .theloai_item_link {
+            color: white;
+        }
+    }
+}
+
+.hover {
+    &:hover {
+        background-color: beige;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .app_header {
+        .app_header_row {
+            display: none;
+        }
+        .app_header_repon {
+            display: block;
+        }
+    }
+}

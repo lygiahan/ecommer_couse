@@ -1,0 +1,31 @@
+.category {
+    width: 96%;
+    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    flex-wrap: wrap;
+    .category_item {
+        margin: 10px;
+        font-size: 18px;
+         :hover {
+            background-color: white;
+            color: #1DA57A;
+            font-weight: bold;
+            transition: all 0.4s linear;
+        }
+        .category_item_button {
+            font-weight: bold;
+        }
+    }
+}
+
+@media screen and (max-width:335px) {
+    .category {
+        .category_item {
+            .category_item_button {
+                width: 155px;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+    .course_landing {
+        background-color: #1e1e1c;
+        .course_landingpage {
+            width: 80%;
+            margin: auto;
+            padding: 3% 0;
+        }
+    }
+    
+    .course_landing_content {
+        margin-top: 20px;
+        width: 85%;
+        margin: auto;
+        margin-bottom: 40px;
+        .course_landing_content_left {
+            width: auto;
+            margin-top: 5%;
+            padding-top: 3%;
+            padding-left: 5%;
+            background-color: #fbfbf8;
+            border: 1px solid #dcdacb;
+        }
+        .course_landing_content_right {
+            margin-top: -30%;
+            height: auto;
+            width: auto;
+            position: sticky;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, .08), 0 4px 12px rgba(0, 0, 0, .08);
+            padding-bottom: 3%;
+            .course_landing_content_right_item {
+                outline: none;
+            }
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .course_landing_content_right {
+            padding-top: 35%;
+        }
+    }

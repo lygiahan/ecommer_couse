@@ -1,0 +1,33 @@
+.app_row {
+    .app_row_button {
+        background-color: #1DA57A;
+        color: white;
+        font-size: 18px;
+        padding: 0 30px;
+        transition: all 1s linear;
+    }
+     :hover.app_row_button {
+        background-color: white;
+        color: #1DA57A;
+        font-weight: bold;
+        padding: 0 180px;
+    }
+}
+
+.app_row2 {
+    margin-top: 100px;
+    background-color: #FBFBF8;
+    .app_row_button2 {
+        background-color: #1DA57A;
+        color: white;
+        font-size: 18px;
+        padding: 0 30px;
+        transition: all 1s linear;
+    }
+     :hover.app_row_button2 {
+        background-color: white;
+        color: #1DA57A;
+        font-weight: bold;
+        padding: 0 150px;
+    }
+}

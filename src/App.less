@@ -1,0 +1,86 @@
+@import '~antd/dist/antd.less';
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ .App{
+  .App-banner{
+    height:100px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    .App-img{
+      max-width: 100%;
+      width: 100%;
+      height: 400px;
+    }
+    
+  }
+  .App-banner-footer{
+    padding: 30px 0;
+    
+    .App-banner-footer-img{
+    padding-top: 10px;
+   
+    }
+    
+  }
+  .App-categorycourse{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 17px;
+  }
+  .App-listcourse{
+    width: 85%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+  .App-footercourse{
+    width: 95%;
+    margin:auto;
+    padding: 20px 0;
+  }
+  .App-first{
+    height: 200px;
+    width: 'auto';
+    background-color: #1DA57A;
+    margin-top: 30px;
+    position: relative;
+    .App-first-chil{
+          position: absolute;
+          top: 20%;
+          left: 32%;
+          text-align: center;
+          overflow: hidden;
+    }
+  }
+  .App-category{
+    width: 85%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .App-intro{
+    width: 90%;
+    margin: auto;
+    margin-top: 60px;
+    background-color: #FBFBF8;
+  }
+  
+ }
+
+ @media screen and (max-width:700px){
+   .App-first{
+     position: relative;
+     .App-first-chil{
+       position: absolute;
+       left: 10% !important;
+       .App-first-chil-button{
+         display: none;
+       }
+     }
+   }
+ }
